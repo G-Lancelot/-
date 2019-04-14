@@ -1,0 +1,44 @@
+/* components/MyTitle/MyTitle.wxss */
+.my_title{
+  display: flex;
+  align-items: center;
+  padding: 10rpx;
+  background-color: white；
+}
+.search_icon{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+ 
+}
+.search{
+  flex: 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rpx;
+  border:1px #424242 solid;
+  color: darkolivegreen;
+  font-size: 20rpx;
+ 
+}
+.logo{
+  display: flex;
+  flex: 1;
+  padding: 30rpx;
+ 
+
+}
+.sign_in{
+  flex: 3;
+  font-size: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:darksalmon;
+  color: #fff;
+  border-radius: 10rpx;
+  padding:10rpx;
+}
